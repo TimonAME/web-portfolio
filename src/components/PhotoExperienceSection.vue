@@ -1,5 +1,5 @@
 <template>
-  <section :id="id" class="container mx-auto px-4 py-16">
+  <section class="container mx-auto px-4 py-16">
     <h2 class="text-4xl md:text-6xl font-bold leading-tight text-sunset-gray mb-12 text-left cursor-default">Experience</h2>
 
     <div class="flex flex-col lg:flex-row gap-12">
@@ -222,12 +222,3 @@
     </div>
   </section>
 </template>
-
-<script setup>
-defineProps({
-  id: {
-    type: String,
-    default: 'experience'
-  }
-});
-</script>

@@ -1,5 +1,5 @@
 <template>
-  <section :id="id" class="container mx-auto px-4 py-16">
+  <section class="container mx-auto px-4 py-16">
     <h2 class="text-4xl md:text-6xl font-bold leading-tight text-sunset-gray mb-12 text-left cursor-default">Projects</h2>
 
     <div v-for="(project, index) in projects" :key="project.title" class="mb-12">
@@ -48,13 +48,6 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
-
-defineProps({
-  id: {
-    type: String,
-    default: 'projects'
-  }
-});
 
 const projects = ref([
   {

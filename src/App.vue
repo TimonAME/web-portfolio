@@ -12,19 +12,19 @@
     <!-- Content Sections -->
     <div class="container mx-auto">
       <!-- About Me Section -->
-      <AboutSection id="about" />
+      <AboutSection />
 
       <!-- Programming Section -->
       <ProgrammingIntroduction />
-      <ProgrammingSkillsSection id="skills" />
-      <ProgrammingAchievementsSection id="achievements" />
-      <ProjectsSection id="projects" />
+      <ProgrammingSkillsSection />
+      <ProgrammingAchievementsSection />
+      <ProgrammingProjectsSection />
 
 
       <!-- Creative Section -->
       <PhotoIntroduction />
-      <PhotoExperienceSection id="experience" />
-      <PhotoGallerySection id="photography" />
+      <PhotoExperienceSection />
+      <PhotoGallerySection />
 
 
       <!-- Footer -->
@@ -38,7 +38,6 @@ import PhysicsHero from './components/PhysicsHero.vue';
 import Navigation from './components/Navigation.vue';
 import SocialLinks from './components/SocialLinks.vue';
 import AboutSection from './components/AboutSection.vue';
-import ProjectsSection from './components/ProjectsSection.vue';
 import PhotoGallerySection from './components/PhotoGallerySection.vue';
 import FooterSection from './components/FooterSection.vue';
 import ProgrammingSkillsSection from "@/components/ProgrammingSkillsSection.vue";
@@ -46,9 +45,14 @@ import ProgrammingAchievementsSection from "@/components/ProgrammingAchievements
 import PhotoExperienceSection from "@/components/PhotoExperienceSection.vue";
 import PhotoIntroduction from "@/components/PhotoIntroduction.vue";
 import ProgrammingIntroduction from "@/components/ProgrammingIntroduction.vue";
+import ProgrammingProjectsSection from "@/components/ProgrammingProjectsSection.vue";
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
 /* Text Selection Styling */
 ::selection {
   background-color: #F2921D;

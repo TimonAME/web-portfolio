@@ -1,5 +1,5 @@
 <template>
-  <section :id="id" class="container py-5" data-aos="fade-up">
+  <section id="about" class="container py-5" data-aos="fade-up">
     <div class="flex flex-col md:flex-row gap-8 justify-center md:justify-end text-center md:text-right">
       <div class="">
         <p class="text-4xl md:text-6xl font-black leading-tight text-[#2E3440] mb-6 cursor-default">
@@ -24,12 +24,3 @@
     </div>
   </section>
 </template>
-
-<script setup>
-defineProps({
-  id: {
-    type: String,
-    default: 'about'
-  }
-});
-</script>

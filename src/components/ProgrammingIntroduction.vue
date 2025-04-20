@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto px-4 py-16">
+  <section id="programming" class="container mx-auto px-4 py-16">
     <div class="flex flex-col md:flex-row gap-12 items-center" data-aos="fade-up">
       <!-- Linke Seite -->
       <div class="md:w-2/3">
