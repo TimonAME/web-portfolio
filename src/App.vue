@@ -15,13 +15,14 @@
       <AboutSection id="about" />
 
       <!-- Programming Section -->
+      <ProgrammingIntroduction />
       <ProgrammingSkillsSection id="skills" />
       <ProgrammingAchievementsSection id="achievements" />
       <ProjectsSection id="projects" />
 
 
       <!-- Creative Section -->
-      <PhotoSkillsSection id="photography" />
+      <PhotoIntroduction />
       <PhotoExperienceSection id="experience" />
       <PhotoGallerySection id="photography" />
 
@@ -42,8 +43,9 @@ import PhotoGallerySection from './components/PhotoGallerySection.vue';
 import FooterSection from './components/FooterSection.vue';
 import ProgrammingSkillsSection from "@/components/ProgrammingSkillsSection.vue";
 import ProgrammingAchievementsSection from "@/components/ProgrammingAchievementsSection.vue";
-import PhotoSkillsSection from "@/components/PhotoSkillsSection.vue";
 import PhotoExperienceSection from "@/components/PhotoExperienceSection.vue";
+import PhotoIntroduction from "@/components/PhotoIntroduction.vue";
+import ProgrammingIntroduction from "@/components/ProgrammingIntroduction.vue";
 </script>
 
 <style>

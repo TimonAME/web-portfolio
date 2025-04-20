@@ -1,6 +1,6 @@
 <template>
   <section :id="id" class="container py-5">
-    <h2 class="text-6xl font-bold leading-tight text-[#2E3440] mb-8 text-left cursor-default break-all">Photography</h2>
+    <h2 class="text-4xl md:text-6xl font-bold leading-tight text-sunset-gray mb-12 text-left cursor-default">Photography</h2>
 
     <div class="flex flex-col gap-16">
       <PhotoCategory
@@ -29,6 +29,7 @@ const photoCategories = ref([
       '/Images/galery/IMG_0126.jpg',
       '/Images/galery/IMG_0098.jpg',
       '/Images/galery/IMG_0116.jpg',
+      '/Images/galery/IMG_9991.jpg',
       '/Images/galery/IMG_0049.jpg',
       '/Images/galery/IMG_0137.jpg',
       '/Images/galery/IMG_0025.jpg',
@@ -49,23 +50,16 @@ const photoCategories = ref([
     title: 'Kopenhagen',
     images: [
       '/Images/galery/IMG_9306.jpg',
-      '/Images/galery/IMG_9276.jpg'
+      '/Images/galery/IMG_9276.jpg',
+      '/Images/galery/IMG_9201.jpg'
     ]
   },
   {
     title: 'Badgastein',
     images: [
       '/Images/galery/IMG_9892.jpg',
-      '/Images/galery/IMG_9935.jpg'
-    ]
-  },
-  {
-    title: 'All The Way Up',
-    images: [
-      '/Images/galery/IMG_0200.jpg',
-      '/Images/galery/IMG_0157.jpg',
-      '/Images/galery/IMG_0333.jpg',
-      '/Images/galery/IMG_0406.jpg'
+      '/Images/galery/IMG_9935.jpg',
+      '/Images/galery/IMG_9876.jpg'
     ]
   }
 ]);

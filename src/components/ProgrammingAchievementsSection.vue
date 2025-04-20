@@ -1,6 +1,6 @@
 <template>
   <section :id="id" class="container mx-auto px-4 py-16">
-    <h2 class="text-4xl md:text-6xl font-bold leading-tight text-sunset-gray mb-16 text-center">Achievements</h2>
+    <h2 class="text-4xl md:text-6xl font-bold leading-tight text-sunset-gray mb-12 text-left cursor-default">Achievements</h2>
 
     <div class="flex flex-col lg:flex-row gap-12">
       <!-- Left side: Timeline -->
@@ -29,13 +29,13 @@
 
                 <!-- Achievement content -->
                 <div class="md:w-2/3">
-                  <h3 class="text-2xl font-bold text-sunset-gray mb-2">Diploma Project Excellence</h3>
+                  <h3 class="text-2xl font-bold text-sunset-gray mb-2">Diplomarbeit</h3>
                   <div class="flex flex-wrap gap-2 mb-4">
                     <span class="bg-sunset-100/20 text-sunset-100 text-sm py-1 px-3 rounded-full">Symfony</span>
                     <span class="bg-sunset-100/20 text-sunset-100 text-sm py-1 px-3 rounded-full">VueJS</span>
                     <span class="bg-sunset-100/20 text-sunset-100 text-sm py-1 px-3 rounded-full">UI/UX</span>
                   </div>
-                  <p class="text-gray-700">Anerkennung für herausragende Leistungen beim Diplomprojekt KLUGes Management erhalten – ausgezeichnete Fähigkeiten in der Frontend-Entwicklung sowie im UI/UX-Design für ein umfassendes Verwaltungssystem unter Beweis gestellt.</p>
+                  <p class="text-gray-700">Anerkennung für herausragende Leistungen beim Diplomprojekt Kluges Management erhalten – ausgezeichnete Fähigkeiten in der Frontend-Entwicklung sowie im UI/UX-Design für ein umfassendes Verwaltungssystem unter Beweis gestellt.</p>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@
                 <!-- Achievement image -->
                 <div class="md:w-1/3">
                   <div class="h-48 rounded-lg overflow-hidden">
-                    <img src="/Images/CodingContest_WorkFoto.jpg" alt="Cloudflight Coding Contest" class="w-full h-full object-cover">
+                    <img src="/Images/CodingContest_GroupFoto.jpg" alt="Cloudflight Coding Contest" class="w-full h-full object-cover">
                   </div>
                 </div>
 
@@ -110,8 +110,8 @@
 
       <!-- Right side: Stats -->
       <div class="lg:w-1/3">
-        <div class="sticky top-24">
-          <div class="bg-sunset-gray text-custom-white rounded-lg shadow-[5px_5px_0px_3px_theme(colors.sunset-200)] p-8" data-aos="fade-left">
+        <div class="sticky top-24" data-aos="fade-left">
+          <div class="bg-sunset-gray text-custom-white p-8 rounded-lg shadow-[5px_5px_0px_3px_theme(colors.sunset-200)] transition-all duration-300 hover:translate-x-[-5px] hover:translate-y-[-5px] hover:shadow-[10px_10px_0px_3px_theme(colors.sunset-200)] h-full flex flex-col">
             <h3 class="text-2xl font-bold mb-6 text-center">Erfolge auf einen Blick</h3>
 
             <!-- Stats items -->

@@ -214,7 +214,7 @@ const categories = ref([
     ],
     projects: ['KLUGes Management', 'Portfolio Website'],
     skills: [
-      { name: 'Adobe', level: 80, icon: '/icons/adobe.svg' },
+      { name: 'Adobe (Photoshop, Lightroom, Premiere, Illustrator)', level: 80, icon: '/icons/adobe.svg' },
       { name: 'Figma', level: 85, icon: '/icons/figma.svg' },
     ]
   },

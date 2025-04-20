@@ -1,7 +1,7 @@
 <template>
   <div class="mb-8">
     <h3 class="text-3xl mb-6 text-gray-800">{{ category.title }}</h3>
-    <div class="relative w-full h-[70vh] md:h-[70vh] overflow-hidden rounded-xl shadow-lg">
+    <div class="relative w-full h-[70vh] md:h-[70vh] overflow-hidden rounded-xl shadow-lg" data-aos="zoom-in">
       <div
           ref="slideshowContainer"
           class="absolute top-0 left-0 w-full h-full flex transition-transform duration-500"
